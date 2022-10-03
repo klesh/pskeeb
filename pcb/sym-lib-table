@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/libs/keebio-components/keebio.lib")(options "")(descr ""))
+  (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/libs/kicad_lib_tmk/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name "YAAJ_WeAct_BlackPill_Part_Like")(type "Legacy")(uri "${KIPRJMOD}/libs/WeAct-BlackPill/YAAJ_WeAct_BlackPill_Part_Like.lib")(options "")(descr ""))
+  (lib (name "trackpoint")(type "KiCad")(uri "${KIPRJMOD}/libs/trackpoint/trackpoint.kicad_sym")(options "")(descr ""))
+  (lib (name "slideswitch")(type "KiCad")(uri "${KIPRJMOD}/libs/slideswitch/slideswitch.kicad_sym")(options "")(descr ""))
+  (lib (name "joystick")(type "KiCad")(uri "${KIPRJMOD}/libs/joystick/joystick.kicad_sym")(options "")(descr ""))
+)
