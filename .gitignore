@@ -37,3 +37,5 @@ gerber/
 
 dxf/
 *.dxf
+
+*.FCStd1
