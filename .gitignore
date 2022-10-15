@@ -34,3 +34,6 @@ gerber/
 *.gbr
 *.drl
 *.gbrjob
+
+dxf/
+*.dxf
