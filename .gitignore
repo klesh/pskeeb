@@ -35,11 +35,14 @@ gerber/
 *.drl
 *.gbrjob
 
+# folders
 dxf/
-*.dxf
+pcb/export
 
 *.FCStd1
 
 \#*
 
 *.zip
+
+
