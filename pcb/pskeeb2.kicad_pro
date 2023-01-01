@@ -401,7 +401,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "export/pskeeb2.step",
+      "step": "export/pskeeb2.1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
