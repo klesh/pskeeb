@@ -1992,7 +1992,7 @@
     (uuid 1d095d65-ab42-481a-a9ed-ba71aa2d59a8)
     (property "Reference" "SW1" (id 0) (at 210.82 127 0))
     (property "Value" "RotaryEncoder_Switch" (id 1) (at 210.82 129.54 0))
-    (property "Footprint" "Keebio-Parts:RotaryEncoder_EC11-no-legs" (id 2) (at 207.01 133.096 0)
+    (property "Footprint" "kwkb-footprint:RotaryEncoder_EC11-no-legs" (id 2) (at 207.01 133.096 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 210.82 130.556 0)
@@ -2131,7 +2131,7 @@
     (uuid 3a6c8f40-fd54-4cfb-af3a-88db1915ff51)
     (property "Reference" "SW2" (id 0) (at 248.92 127 0))
     (property "Value" "RotaryEncoder_Switch" (id 1) (at 248.92 129.54 0))
-    (property "Footprint" "Keebio-Parts:RotaryEncoder_EC11-no-legs" (id 2) (at 245.11 133.096 0)
+    (property "Footprint" "kwkb-footprint:RotaryEncoder_EC11-no-legs" (id 2) (at 245.11 133.096 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 248.92 130.556 0)
@@ -3263,10 +3263,10 @@
       (reference "R3") (unit 1) (value "100k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/1d095d65-ab42-481a-a9ed-ba71aa2d59a8"
-      (reference "SW1") (unit 1) (value "RotaryEncoder_Switch") (footprint "Keebio-Parts:RotaryEncoder_EC11-no-legs")
+      (reference "SW1") (unit 1) (value "RotaryEncoder_Switch") (footprint "kwkb-footprint:RotaryEncoder_EC11-no-legs")
     )
     (path "/3a6c8f40-fd54-4cfb-af3a-88db1915ff51"
-      (reference "SW2") (unit 1) (value "RotaryEncoder_Switch") (footprint "Keebio-Parts:RotaryEncoder_EC11-no-legs")
+      (reference "SW2") (unit 1) (value "RotaryEncoder_Switch") (footprint "kwkb-footprint:RotaryEncoder_EC11-no-legs")
     )
     (path "/af2183fb-a949-4f1f-8eb1-6ee101455a80"
       (reference "U1") (unit 1) (value "YAAJ_WeAct_BlackPill_Part_Like") (footprint "WeAct_BlackPill:YAAJ_WeAct_BlackPill_2")
