@@ -1,11 +1,4 @@
-# PSKeeb 2.5 - Cherry MX Switch
-
-## Preview
-
-![pskeeb2.5 cherry mx switch - right](release/right.jpg)
-![pskeeb2.5 cherry mx switch - top](release/top.jpg)
-![pskeeb2.5 cherry mx switch - stack](release/stack.jpg)
-
+# PSKeeb 2
 ## Features
 
 - 9.2 x 9.2 cm PCB which is cheap to order from PCB manufacturer 
@@ -15,10 +8,21 @@
 - 36 keys columnar layout - fast typing
 - Trackpoint support
 
-## BOM
+## Versions
 
-- [Laser cut acrylic top plate](release/pskeeb2.5-topplate.dxf)
-- [3D printed case](release/pskeeb2.5-case.stl) x 2pcs (one of them must be mirrored in your slicing software)
+### Cherry MX Switch / Blackpill / Trackpoint
+
+#### Preview
+
+![pskeeb2.5 cherry mx switch - right](mx-blackpill-trackpoint/release/right.jpg)
+![pskeeb2.5 cherry mx switch - top](mx-blackpill-trackpoint/release/top.jpg)
+![pskeeb2.5 cherry mx switch - stack](mx-blackpill-trackpoint/release/stack.jpg)
+
+
+#### BOM
+
+- [Laser cut acrylic top plate](mx-blackpill-trackpoint/release/pskeeb2.5-topplate.dxf)
+- [3D printed case](mx-blackpill-trackpoint/release/pskeeb2.5-case.stl) x 2pcs (one of them must be mirrored in your slicing software)
 - Blackpill stm32f401 x 2pcs
 - m2x5 screw x 24pcs for plates and cases
 - PJ-320A TRRS headphone jack x 2pcs / 3.5mm TRRS cabck 4 Pole x 1pc
@@ -32,25 +36,31 @@
 - EC11 rotary encoder and knob x 2pcs
 - Optional 2.54mm pitch single row socket with 3.5mm profile x 2pcs for mounting MicroController
 
-## Assembly
+#### Assembly
 
 
 Video to be uploaded
 
-### Trackpoint
+#### Trackpoint
 
 1. Follow [this great guide](https://github.com/alonswartz/trackpoint#q-how-do-i-identify-the-trackpoint-pinout) and [this topic](https://geekhack.org/index.php?topic=115912.0) to identify the trackpoint pinout
 2. Solder GH cable to the trackpoint by refering to the socket wiring sequence: RST/DAT/CLK/GND/VCC (top to bottom)
 
-## Fireware and keymap
+#### Fireware and keymap
 
 1. [Download the firmware](https://github.com/klesh/pskeeb2/releases/download/v2.5/pskeeb2_vial.bin) and follow the [QMK doc](https://docs.qmk.fm/#/newbs_flashing) to flash the Blackpills
 2. [Download the vial](https://get.vial.today/download/) and use it to configure your keymap
+
+
+### Cherry MX Switch / Raspberry Pi Pico / Trackpoint
  
 
-# Developement
+## Developement
 
 ```
 git clone https://github.com/klesh/pskeeb2.git
 git submodule update --init --recursive
 ```
+
+Use the following options when exporting gerber for JLCPCB manufactoring.
+![gerber options for jlcpcb](kicad6-jlc-gerber-export-options.png)

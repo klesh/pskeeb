@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/../libs/kicad_lib_tmk/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name "kwkb")(type "KiCad")(uri "${KIPRJMOD}/../libs/kwkb-kicad/kwkb-symbols/kwkb.kicad_sym")(options "")(descr ""))
+  (lib (name "YAAJ_WeAct_BlackPill_Part_Like")(type "Legacy")(uri "${KIPRJMOD}/../libs/kwkb-kicad/WeAct-BlackPill/YAAJ_WeAct_BlackPill_Part_Like.lib")(options "")(descr ""))
+)
