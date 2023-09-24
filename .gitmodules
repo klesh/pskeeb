@@ -10,3 +10,6 @@
 [submodule "libs/Keebio-Parts.pretty"]
 	path = libs/Keebio-Parts.pretty
 	url = git@github.com:keebio/Keebio-Parts.pretty.git
+[submodule "libs/KiCad-RP-Pico"]
+	path = libs/KiCad-RP-Pico
+	url = git@github.com:ncarandini/KiCad-RP-Pico.git

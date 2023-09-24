@@ -1,12 +1,26 @@
 # PSKeeb 2
 ## Features
 
-- 9.2 x 9.2 cm PCB which is cheap to order from PCB manufacturer 
+- 9.2 x 9.2 cm PCB which is cheap even free to manufacture
 - Diodeless design - easy to build
 - Tenting design - good for your wrists, shoulders and back
 - Stackable - portable
-- 36 keys columnar layout - fast typing
+- 36 keys columnar layout - less movement when typing
 - Trackpoint support
+
+## Naming
+### Switch Support
+
+- `mx`: Cherry MX
+- `ch`: kailh choc v1
+- `ks`: gateron ks27
+- `ak`: All Kinds of switches (mx/kaihl choc/gateron ks27)
+- `hs`: Hot Swap support
+
+### Controller Support
+
+- `bp`: WeAct Blackpill
+- `pico`: Raspberry Pi Pico
 
 ## Versions
 
@@ -14,15 +28,15 @@
 
 #### Preview
 
-![pskeeb2.5 cherry mx switch - right](mx-blackpill-trackpoint/release/right.jpg)
-![pskeeb2.5 cherry mx switch - top](mx-blackpill-trackpoint/release/top.jpg)
-![pskeeb2.5 cherry mx switch - stack](mx-blackpill-trackpoint/release/stack.jpg)
+![pskeeb2.5 cherry mx switch - right](ak-bp/release/right.jpg)
+![pskeeb2.5 cherry mx switch - top](ak-bp/release/top.jpg)
+![pskeeb2.5 cherry mx switch - stack](ak-bp/release/stack.jpg)
 
 
 #### BOM
 
-- [Laser cut acrylic top plate](mx-blackpill-trackpoint/release/pskeeb2.5-topplate.dxf)
-- [3D printed case](mx-blackpill-trackpoint/release/pskeeb2.5-case.stl) x 2pcs (one of them must be mirrored in your slicing software)
+- [Laser cut acrylic top plate](ak-bp/release/pskeeb2.5-topplate.dxf)
+- [3D printed case](ak-bp/release/pskeeb2.5-case.stl) x 2pcs (one of them must be mirrored in your slicing software)
 - Blackpill stm32f401 x 2pcs
 - m2x5 screw x 24pcs for plates and cases
 - PJ-320A TRRS headphone jack x 2pcs / 3.5mm TRRS cabck 4 Pole x 1pc
