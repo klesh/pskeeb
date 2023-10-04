@@ -13,3 +13,6 @@
 [submodule "libs/KiCad-RP-Pico"]
 	path = libs/KiCad-RP-Pico
 	url = git@github.com:ncarandini/KiCad-RP-Pico.git
+[submodule "libs/keyswitches.pretty"]
+	path = libs/keyswitches.pretty
+	url = git@github.com:daprice/keyswitches.pretty.git

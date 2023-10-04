@@ -56,7 +56,22 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|123083999|38500001|3b9b6b56-b5e4-4c93-8e2d-5f5185ff936e|86376000-d342-4dbc-8160-f10ab1b60808",
+        "courtyards_overlap|123083999|38500001|3b9b6b56-b5e4-4c93-8e2d-5f5185ff936e|cbb9bce1-c2d1-4a18-8e64-a78496b1e53c",
+        "courtyards_overlap|125727001|90340001|816acbb4-0155-4aa9-b744-203445b042f2|ae4a7a4a-f4a2-43ef-b6be-5e271b38dfea",
+        "courtyards_overlap|125727001|90340001|ae4a7a4a-f4a2-43ef-b6be-5e271b38dfea|1876825a-c6a9-4e5e-a82d-e2e3047451ce",
+        "courtyards_overlap|154538001|94024001|33b0fb61-c69a-4bc8-bc6f-105bf0e7a951|991a6d08-7d6c-4a8b-bfea-b25fca961c38",
+        "courtyards_overlap|154538001|94024001|33b0fb61-c69a-4bc8-bc6f-105bf0e7a951|b77a42df-fa6d-4fae-87d3-f15cba81dc03",
+        "courtyards_overlap|155039999|99523999|46ee66ec-12da-48c6-9184-ce96b38787e0|991a6d08-7d6c-4a8b-bfea-b25fca961c38",
+        "courtyards_overlap|66920191|45132001|50d8dbad-a0ff-4690-9ffe-fb8c43917369|d3e99afa-b1f3-43fb-a948-4d30d276c395",
+        "courtyards_overlap|67910001|81850001|34711776-da3c-4c75-9fae-98e93868e7ec|d3e99afa-b1f3-43fb-a948-4d30d276c395",
+        "courtyards_overlap|67940001|76880001|c4bd71b9-964d-4883-a177-bcdb6ee81831|d3e99afa-b1f3-43fb-a948-4d30d276c395",
+        "courtyards_overlap|67940001|86880001|1f44fe86-d871-4e39-a2a1-7058c8b87781|d3e99afa-b1f3-43fb-a948-4d30d276c395",
+        "courtyards_overlap|70812903|110445999|c11dbea0-3417-481f-a6cc-58f136e261cb|53577a87-5de0-4269-819d-c69e2fc028e8",
+        "courtyards_overlap|70812903|110445999|c11dbea0-3417-481f-a6cc-58f136e261cb|c406786b-0719-4f7f-8515-cfa4673f8ae8",
+        "courtyards_overlap|71968077|71880001|d3e99afa-b1f3-43fb-a948-4d30d276c395|d7dbd9d6-41f6-4140-bef4-523a9d68fce2"
+      ],
       "meta": {
         "version": 2
       },
@@ -371,18 +386,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -392,6 +412,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -403,7 +424,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pskeeb2.kicad_pro",
+    "filename": "pskeeb2-cherry-hotswap.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -456,6 +477,10 @@
       {
         "netclass": "Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
       }
     ]
   },
@@ -465,7 +490,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../../Desktop/pskeeb2.5.step",
+      "step": "gerber/pskeeb-cherry-hotswap.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -473,6 +498,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -504,7 +531,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
