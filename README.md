@@ -1,4 +1,4 @@
-# PSKeeb 2
+# Portable Slit Keyboard
 
 ## Features
 
