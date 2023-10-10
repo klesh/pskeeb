@@ -2,15 +2,16 @@
 
 ## Features
 
-- Tenting design - good for your wrists, shoulders and back
+- Tenting design - good for RSI symptoms
 - Stackable - portable
 - 36 keys columnar layout - less movement when typing
 - Trackpoint support
 
 ## Designs
 
-- [pskeeb2 express](pskeeb2-express): All Kinds of switches, Blackpill controller, Diodeless, 9.2x9.2cm PCB
-- [pskeeb2 cherry hotswap](pskeeb2-cherry-hotswap): Cherry MX Switch, Raspberry Pi Pico, Diodeless
+- [pskeeb1 gateron ks27](pskeeb1_gateron_ks27): Mainly designed for Gateron KS27 low profile switches, Blackpill controller, Diodeless
+- [pskeeb2 express](pskeeb2_express): All Kinds of switches, Blackpill controller, Diodeless, 9.2x9.2cm PCB
+- [pskeeb3 cherry hotswap](pskeeb3_cherry_hotswap): Cherry MX Switch, Raspberry Pi Pico, Diodeless
 
 ## Assembly
 
@@ -23,7 +24,7 @@
 ## Developement
 
 ```
-git clone https://github.com/klesh/pskeeb2.git
+git clone https://github.com/klesh/pskeeb.git
 git submodule update --init --recursive
 ```
 

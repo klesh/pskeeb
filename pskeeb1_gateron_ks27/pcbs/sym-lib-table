@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/../../libs/keebio-components/keebio.lib")(options "")(descr ""))
+  (lib (name "keyboard_parts")(type "Legacy")(uri "${KIPRJMOD}/../../libs/kicad_lib_tmk/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name "YAAJ_WeAct_BlackPill_Part_Like")(type "Legacy")(uri "${KIPRJMOD}/../../libs/WeAct-BlackPill/YAAJ_WeAct_BlackPill_Part_Like.lib")(options "")(descr ""))
+  (lib (name "pskeeb-components")(type "KiCad")(uri "${KIPRJMOD}/../../libs/pskeeb-components/pskeeb-components.kicad_sym")(options "")(descr ""))
+)
