@@ -1,4 +1,4 @@
-# Portable Slit Keyboard
+# Portable Split Keyboard
 
 ## Features
 
