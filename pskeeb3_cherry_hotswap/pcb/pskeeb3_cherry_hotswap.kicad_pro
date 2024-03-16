@@ -3,6 +3,9 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.09999999999999999,
         "copper_line_width": 0.19999999999999998,
         "copper_text_italic": false,
@@ -56,22 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|123083999|38500001|3b9b6b56-b5e4-4c93-8e2d-5f5185ff936e|86376000-d342-4dbc-8160-f10ab1b60808",
-        "courtyards_overlap|123083999|38500001|3b9b6b56-b5e4-4c93-8e2d-5f5185ff936e|cbb9bce1-c2d1-4a18-8e64-a78496b1e53c",
-        "courtyards_overlap|125727001|90340001|816acbb4-0155-4aa9-b744-203445b042f2|ae4a7a4a-f4a2-43ef-b6be-5e271b38dfea",
-        "courtyards_overlap|125727001|90340001|ae4a7a4a-f4a2-43ef-b6be-5e271b38dfea|1876825a-c6a9-4e5e-a82d-e2e3047451ce",
-        "courtyards_overlap|154538001|94024001|33b0fb61-c69a-4bc8-bc6f-105bf0e7a951|991a6d08-7d6c-4a8b-bfea-b25fca961c38",
-        "courtyards_overlap|154538001|94024001|33b0fb61-c69a-4bc8-bc6f-105bf0e7a951|b77a42df-fa6d-4fae-87d3-f15cba81dc03",
-        "courtyards_overlap|155039999|99523999|46ee66ec-12da-48c6-9184-ce96b38787e0|991a6d08-7d6c-4a8b-bfea-b25fca961c38",
-        "courtyards_overlap|66920191|45132001|50d8dbad-a0ff-4690-9ffe-fb8c43917369|d3e99afa-b1f3-43fb-a948-4d30d276c395",
-        "courtyards_overlap|67910001|81850001|34711776-da3c-4c75-9fae-98e93868e7ec|d3e99afa-b1f3-43fb-a948-4d30d276c395",
-        "courtyards_overlap|67940001|76880001|c4bd71b9-964d-4883-a177-bcdb6ee81831|d3e99afa-b1f3-43fb-a948-4d30d276c395",
-        "courtyards_overlap|67940001|86880001|1f44fe86-d871-4e39-a2a1-7058c8b87781|d3e99afa-b1f3-43fb-a948-4d30d276c395",
-        "courtyards_overlap|70812903|110445999|c11dbea0-3417-481f-a6cc-58f136e261cb|53577a87-5de0-4269-819d-c69e2fc028e8",
-        "courtyards_overlap|70812903|110445999|c11dbea0-3417-481f-a6cc-58f136e261cb|c406786b-0719-4f7f-8515-cfa4673f8ae8",
-        "courtyards_overlap|71968077|71880001|d3e99afa-b1f3-43fb-a948-4d30d276c395|d7dbd9d6-41f6-4140-bef4-523a9d68fce2"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -88,6 +76,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
@@ -151,9 +140,6 @@
       },
       "teardrop_options": [
         {
-          "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
-          "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
           "td_ontrackend": false,
@@ -162,29 +148,35 @@
       ],
       "teardrop_parameters": [
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
+          "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
         }
@@ -192,6 +184,32 @@
       "track_widths": [
         0.0
       ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
       "via_dimensions": [
         {
           "diameter": 0.0,
@@ -200,6 +218,13 @@
       ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
     },
     "layer_presets": [],
     "viewports": []
@@ -424,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pskeeb2-cherry-hotswap.kicad_pro",
+    "filename": "pskeeb3_cherry_hotswap.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -489,8 +514,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "../release/pskeeb3_cherry_hotswap_gerber",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "gerber/pskeeb-cherry-hotswap.step",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
