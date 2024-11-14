@@ -51,13 +51,7 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -66,9 +60,9 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "warning",
+        "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "warning",
+        "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -77,8 +71,8 @@
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "warning",
-        "hole_near_hole": "warning",
+        "hole_clearance": "error",
+        "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -87,7 +81,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "warning",
+        "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
@@ -106,7 +100,7 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "error",
+        "track_dangling": "warning",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -131,7 +125,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -177,9 +171,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -206,12 +198,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -444,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pskeeb4_gtr_lp_ks27_hotswap.kicad_pro",
+    "filename": "trackball1_sym8.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -475,12 +462,29 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
-        "via_diameter": 1.0,
-        "via_drill": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -491,16 +495,28 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+3V3"
-      },
-      {
-        "netclass": "Power",
+        "netclass": "POWER",
         "pattern": "GND"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VIN"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SDIO"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "SCLK"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "nCS"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "MOTION"
       }
     ]
   },
@@ -508,11 +524,11 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../../../../../Program Files/KiCad/8.0/",
-      "plot": "C:/Users/Klesh/Desktop/pskeeb4gerber/",
+      "netlist": "",
+      "plot": "C:/Users/Klesh/Desktop/trackball_sym8",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/pskeeb4_gtr_lp_ks27_hotswap.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -570,11 +586,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -619,7 +647,7 @@
   },
   "sheets": [
     [
-      "45739220-25ae-406b-a2cb-8dd202885c8a",
+      "3a7d7add-f87d-40f2-b480-8402ad4e63c0",
       "Root"
     ]
   ],
