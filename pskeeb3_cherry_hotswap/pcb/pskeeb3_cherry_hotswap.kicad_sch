@@ -5305,7 +5305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "kwkb-footprint:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 118.745 178.943 90)
 			(effects
 				(font
@@ -5374,7 +5374,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 182.245 57.785 0)
 			(effects
 				(font
@@ -5590,7 +5590,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 96.52 57.785 0)
 			(effects
 				(font
@@ -7970,7 +7970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "kwkb-footprint:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 122.555 185.7248 0)
 			(effects
 				(font
@@ -8039,7 +8039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 182.245 36.83 0)
 			(effects
 				(font
@@ -8455,7 +8455,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 125.73 57.785 0)
 			(effects
 				(font
@@ -8538,7 +8538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 96.52 36.83 0)
 			(effects
 				(font
@@ -8754,7 +8754,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 69.215 36.83 0)
 			(effects
 				(font
@@ -9835,7 +9835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 153.035 36.83 0)
 			(effects
 				(font
@@ -9985,7 +9985,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 153.035 57.785 0)
 			(effects
 				(font
@@ -10136,7 +10136,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 41.275 57.785 0)
 			(effects
 				(font
@@ -10288,7 +10288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical"
+		(property "Footprint" "kwkb-footprint:JST_GH_BM05B-GHS-TBT_1x05-1MP_P1.25mm_Vertical"
 			(at 135.89 165.1 0)
 			(effects
 				(font
@@ -10566,7 +10566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -10782,7 +10782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "kwkb-footprint:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 126.365 182.753 90)
 			(effects
 				(font
@@ -10994,7 +10994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 69.215 57.785 0)
 			(effects
 				(font
@@ -11466,7 +11466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "kwkb-footprint:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 118.745 175.133 90)
 			(effects
 				(font
@@ -12204,7 +12204,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "kwkb-footprint:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 			(at 41.275 36.83 0)
 			(effects
 				(font

@@ -59,7 +59,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_near_hole|139050000|101500000|8f963e98-e2ab-4e50-86af-1aeabd3acf14|3c17ed1c-72dc-47ef-87ea-eab0eae7ab30",
+        "hole_near_hole|139050000|104000000|1dd6b37e-1818-48a1-ab3c-9262759c8997|38bcbec7-5562-4332-80f7-43adcb6cd967",
+        "hole_near_hole|139050000|106500000|4d6fe922-7dba-4382-8c11-2353c181fe40|2ca1d8d3-2ca9-423f-b3b5-3e7a83179700"
+      ],
       "meta": {
         "version": 2
       },
@@ -69,7 +73,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -576,11 +580,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
