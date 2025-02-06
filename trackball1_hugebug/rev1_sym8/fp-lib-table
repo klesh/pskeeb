@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "kwkb-footprint")(type "KiCad")(uri "C:/Users/Klesh/Projects/pskeeb/libs/kwkb-kicad/kwkb-footprint.pretty")(options "")(descr ""))
-)

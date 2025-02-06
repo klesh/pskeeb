@@ -1,8 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"J1, J2, J3, J4",JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical,4,Conn_01x03,
-"J10, J11, J8, J9",PinHeader_1x03_P2.00mm_Vertical,4,Conn_01x03,
-J5,Hirose_FH12-8S-0.5SH_1x08-1MP_P0.50mm_Horizontal,1,Conn_01x08,
-"J6, J7",JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical,2,Conn_01x02,
-"R1, R2",1206,2,100k,
-"SW1, SW2, SW3, SW4",MouseSwitch,4,SW_SPDT,
-U1,RP2024-Zero,1,~,
